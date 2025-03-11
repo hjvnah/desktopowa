@@ -9,19 +9,19 @@
     <Grid Background="LightSteelBlue">
         <GroupBox Header="Dane Pracownika" Margin="38,51,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="216" Width="311" FontSize="14"/>
         <GroupBox Header="Generowanie hasła" Margin="437,51,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="216" Width="311" FontSize="14"/>
-        <Button Background="SteelBlue" Content="Zatwierdź" Margin="0,310,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Height="51" Width="296" Foreground="White" BorderBrush="White"/>
+        <Button x:Name="przyciskzatwierdz" Background="SteelBlue" Content="Zatwierdź" Margin="0,310,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Height="51" Width="296" Foreground="White" BorderBrush="White"/>
         <Label Content="Ile znaków?" Margin="469,83,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBox TextWrapping="Wrap" Text="" Margin="571,83,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Height="29"/>
-        <CheckBox Content="Małe i wielkie litery" Margin="485,131,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <CheckBox Content="Cyfry" Margin="485,159,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <CheckBox Content="Znaki specjalne" Margin="485,189,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Button Content="Generuj hasło" Background="SteelBlue" Margin="524,221,0,0" Foreground="White" BorderBrush="White" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="142"/>
+        <TextBox x:Name="textileznakow" TextWrapping="Wrap" Text="" Margin="571,83,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Height="29"/>
+        <CheckBox x:Name="checkmaleiwielkielitery" Content="Małe i wielkie litery" Margin="485,131,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkcyfry" Content="Cyfry" Margin="485,159,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkznakispecjalne" Content="Znaki specjalne" Margin="485,189,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="przyciskgenerujhaslo" Content="Generuj hasło" Background="SteelBlue" Margin="524,221,0,0" Foreground="White" BorderBrush="White" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="142"/>
         <Label Content="Imię" Margin="69,83,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <Label Content="Nazwisko" Margin="66,126,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <Label Content="Stanowisko" Margin="66,167,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBox TextWrapping="Wrap" Text="" Margin="182,83,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Height="29"/>
-        <TextBox TextWrapping="Wrap" Text="" Margin="182,125,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Height="29"/>
-        <ComboBox Margin="182,170,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="134"/>
+        <TextBox x:Name="textimie" TextWrapping="Wrap" Text="" Margin="182,83,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Height="29"/>
+        <TextBox x:Name="textnazwisko" TextWrapping="Wrap" Text="" Margin="182,125,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Height="29"/>
+        <ComboBox x:Name="combostanowisko" Margin="182,170,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="134"/>
 
 
     </Grid>
