@@ -24,6 +24,8 @@ namespace desktopowa
         public bool czycyfry = false;
         public bool czyznakispecjalne = false;
 
+        public string haslo;
+
         private void checkmaleiwielkielitery_Checked(object sender, RoutedEventArgs e)
         {
             czymaleiwielkielitery = true;
@@ -59,6 +61,18 @@ namespace desktopowa
             string ileznakowstring = textileznakow.Text;
             int ileznakow = int.Parse(ileznakowstring);
 
+            Random random = new Random();
+
+            string znakispecjalne = "!@#$%^&*()_+-=";
+            string duzelitery = "ABCDEFGHIJKLMNOPRSTUWZXQY";
+            string malelitery = "abcdefghijklmnoprstuwzxqy";
+            string cyfry = "123456789";
+
+            for ( int i = 0; i < ileznakow; i++)
+            {
+                
+            }
+            
             
 
         }
@@ -67,6 +81,8 @@ namespace desktopowa
         {
             string imie = textimie.Text;
             string nazwisko = textnazwisko.Text;
+
+            
 
         }
     }
