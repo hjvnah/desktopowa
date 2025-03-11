@@ -24,7 +24,7 @@ namespace desktopowa
         public bool czycyfry = false;
         public bool czyznakispecjalne = false;
 
-        public string haslo;
+        public string haslo = "4$*hK";
 
         private void checkmaleiwielkielitery_Checked(object sender, RoutedEventArgs e)
         {
@@ -81,8 +81,9 @@ namespace desktopowa
         {
             string imie = textimie.Text;
             string nazwisko = textnazwisko.Text;
+            string stanowisko = combostanowisko.Text;
 
-            
+            MessageBox.Show("Dane pracownika: " + imie + " " + nazwisko+" "+stanowisko+" Hasło: "+haslo);
 
         }
     }
