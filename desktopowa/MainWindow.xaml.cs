@@ -61,6 +61,8 @@ namespace desktopowa
             string ileznakowstring = textileznakow.Text;
             int ileznakow = int.Parse(ileznakowstring);
 
+            string[] tablica = new string[ileznakow];
+
             Random random = new Random();
 
             string znakispecjalne = "!@#$%^&*()_+-=";
@@ -72,8 +74,8 @@ namespace desktopowa
             {
                 
             }
-            
-            
+
+            MessageBox.Show(haslo);
 
         }
 
