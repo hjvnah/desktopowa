@@ -53,5 +53,21 @@ namespace desktopowa
         {
             czyznakispecjalne = false;
         }
+
+        private void przyciskgenerujhaslo_Click(object sender, RoutedEventArgs e)
+        {
+            string ileznakowstring = textileznakow.Text;
+            int ileznakow = int.Parse(ileznakowstring);
+
+            
+
+        }
+
+        private void przyciskzatwierdz_Click(object sender, RoutedEventArgs e)
+        {
+            string imie = textimie.Text;
+            string nazwisko = textnazwisko.Text;
+
+        }
     }
 }
