@@ -12,9 +12,9 @@
         <Button x:Name="przyciskzatwierdz" Background="SteelBlue" Content="Zatwierdź" Margin="0,310,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Height="51" Width="296" Foreground="White" BorderBrush="White"/>
         <Label Content="Ile znaków?" Margin="469,83,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <TextBox x:Name="textileznakow" TextWrapping="Wrap" Text="" Margin="571,83,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Height="29"/>
-        <CheckBox x:Name="checkmaleiwielkielitery" Content="Małe i wielkie litery" Margin="485,131,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <CheckBox x:Name="checkcyfry" Content="Cyfry" Margin="485,159,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <CheckBox x:Name="checkznakispecjalne" Content="Znaki specjalne" Margin="485,189,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkmaleiwielkielitery" Content="Małe i wielkie litery" Margin="485,131,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="checkmaleiwielkielitery_Checked" Unchecked="checkmaleiwielkielitery_Unchecked" />
+        <CheckBox x:Name="checkcyfry" Content="Cyfry" Margin="485,159,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="checkcyfry_Checked" Unchecked="checkcyfry_Unchecked" />
+        <CheckBox x:Name="checkznakispecjalne" Content="Znaki specjalne" Margin="485,189,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="checkznakispecjalne_Checked" Unchecked="checkznakispecjalne_Unchecked" />
         <Button x:Name="przyciskgenerujhaslo" Content="Generuj hasło" Background="SteelBlue" Margin="524,221,0,0" Foreground="White" BorderBrush="White" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="142"/>
         <Label Content="Imię" Margin="69,83,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <Label Content="Nazwisko" Margin="66,126,0,0" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>

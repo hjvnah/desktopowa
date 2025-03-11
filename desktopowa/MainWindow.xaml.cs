@@ -20,5 +20,38 @@ namespace desktopowa
         {
             InitializeComponent();
         }
+        public bool czymaleiwielkielitery = false;
+        public bool czycyfry = false;
+        public bool czyznakispecjalne = false;
+
+        private void checkmaleiwielkielitery_Checked(object sender, RoutedEventArgs e)
+        {
+            czymaleiwielkielitery = true;
+        }
+
+        private void checkmaleiwielkielitery_Unchecked(object sender, RoutedEventArgs e)
+        {
+            czymaleiwielkielitery = false;
+        }
+
+        private void checkcyfry_Checked(object sender, RoutedEventArgs e)
+        {
+            czycyfry = true;
+        }
+
+        private void checkcyfry_Unchecked(object sender, RoutedEventArgs e)
+        {
+            czycyfry = false;
+        }
+
+        private void checkznakispecjalne_Checked(object sender, RoutedEventArgs e)
+        {
+            czyznakispecjalne = true;
+        }
+
+        private void checkznakispecjalne_Unchecked(object sender, RoutedEventArgs e)
+        {
+            czyznakispecjalne = false;
+        }
     }
 }
